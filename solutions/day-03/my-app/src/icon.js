@@ -1,0 +1,8 @@
+const htmlImg = <img alt="HTML" title="HTML" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fhtml5-icon%2Fhtml5-icon-13.jpg&f=1&nofb=1&ipt=fcbd587b8b1f8b598244920827960a8d318e0549d43c2cc5acc821dbf925060d&ipo=images" />
+const cssImage = <img alt="CSS" title="CSS" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Fcss-3%2Flogo-css-3-2048.png&f=1&nofb=1&ipt=c95942d58e90493aec930624d17d35342199db1ececbfa5dcd97a95f9dc83004&ipo=images" />
+const jsImg = <img alt="JavaScript" title="JavaScript" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"/>
+const ciImg = <img alt="Codeigniter" title="Codeigniter" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-LlvHf5pNB_Q%2FVfocRUh-k4I%2FAAAAAAAAASw%2FRSGkE7uNvKg%2Fs1600%2Fcodeigniter_logo.png&f=1&nofb=1&ipt=812700a6052525f928b1bcf2ea46b72afd376b9f3c691fc1336f3a1744c57ae6&ipo=images"/>
+const tailwindImg = <img alt="Tailwind" title="Tailwind" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcodekitapp.com%2Fimages%2Fhelp%2Ffree-tailwind-icon%402x.png&f=1&nofb=1&ipt=8f92b841100e593e7fb038f8e6a3aa1ff435c14a2307b3ac7ad4444d676832f7&ipo=images"/>
+const centangBiru = <img alt="centangbiru" title="centangbiru" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh6.googleusercontent.com%2Fproxy%2F6a0byazX_BxqRD9UylYBtD2SdAHqMJ2zZpfIUjWh8E93SHE00MMIqjJ7lZPYGP3yTBhZrQRZA9VURetPFOUARGss1kJsBTmRWIRGQMb5d8hpTnlpiYuqvw%3Ds0-d&f=1&nofb=1&ipt=055c96a8b2481c0e5b5d800221a88cd367c23bdb00abb426ee62cb5159218139&ipo=images" />
+
+export {htmlImg,cssImage,jsImg,ciImg,tailwindImg,centangBiru}
