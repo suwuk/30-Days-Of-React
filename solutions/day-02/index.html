@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Days Of React Challenge</title>
+</head>
+
+<body>
+    <div id="rootin"></div>
+    <div id="main"><p></p></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        
+        const header = (
+            <header>
+                <h1>Welcome to 30 Days Of React</h1>
+                <h2>Getting Started React</h2>
+                <h3>JavaScript Library</h3>
+                <p>Asabeneh Yetayeh</p>
+                <small>Oct 2, 2020</small>
+            </header>
+        )
+
+        const skills = ['HTML','CSS','Javascript'];
+        const newSkills = skills.map((skill) => <li key={skill}>{skill}</li>)
+        const main = (
+            <main>
+                <p>Prerequisite to get started react.js:</p>
+                <ul>{newSkills}
+                </ul>
+            </main>
+        )
+
+        const footer = (
+            <footer>
+                <p>Copyright 2020</p>
+            </footer>
+        )
+
+        const app = (
+            <div>
+                {header}
+                {main}
+                {footer}
+            </div>
+        )
+
+ 
+
+
+        const domContainer = document.querySelector('#rootin');
+        const root = ReactDOM.createRoot(domContainer);
+        root.render(app);
+
+
+        const address = {
+            city: "Jakarta",
+            country: "Indonesia"
+        }
+        const newAddress = (<p>i Live {address.city} in {address.country}</p>)
+
+        
+        function atur(){
+            const mainn = document.querySelector('div#main p')
+            const now = new Date();
+            const hours = now.getHours();
+            const minute = now.getMinutes();
+            const second = now.getSeconds();
+            mainn.textContent = `Sekarang Jam ${hours}:${minute}:${second}`;
+        } 
+        const Waktu = setInterval(atur, 1000 );
+
+
+        const domContainerMain = ReactDOM.createRoot(document.querySelector('div#main p'));
+        domContainerMain.render(Waktu);
+
+    </script>
+
+</body>
+
+</html>
