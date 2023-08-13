@@ -38,7 +38,6 @@ header > h3 {
     box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.4),inset 6px 6px 10px 0 rgba(255,255,255, 0.2);
 }
 
-
 .card {
     text-align: center;
     color: #ffffff;
@@ -46,8 +45,25 @@ header > h3 {
     font-size: 26px;
 }
 
-main {
+.grid {
     display: grid;
-    grid-template-columns: max-content min-content min-content min-content min-content min-content min-content min-content;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     gap: 4px;
+    margin-top: 40px;
+}
+
+.color {
+    font-size: 20px;
+    padding: 23px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.4),inset 6px 6px 10px 0 rgba(255,255,255, 0.2);
+}
+
+.hexcolor {
+    margin-top: 20px;
+}
+
+.title-ch {
+    margin-top: 100px;
+    text-align: center;
 }
